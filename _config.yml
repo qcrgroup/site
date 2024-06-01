@@ -26,6 +26,16 @@ url: "https://qcrgroup.github.io" # the base hostname & protocol for your site, 
 twitter_username: qcrgroup
 github_username:  qcrgroup
 
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Members"
+    url: "/pages/members/"
+  - title: "Our Projects"
+    url: "/pages/research/"
+  - title: "Find Us"
+    url: "/find_us/"
+
 
 # Build settings
 # theme: minimal-mistakes-jekyll
