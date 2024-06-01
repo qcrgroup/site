@@ -21,7 +21,7 @@
 title:
 email: qrcgroup@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  	The website of the Quantitative Criminology Research Group at ACU
+The website of the Quantitative Criminology Research Group at ACU
 baseurl: "/site" # the subpath of your site, e.g. /blog
 url: "https://qcrgroup.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: qcrgroup
