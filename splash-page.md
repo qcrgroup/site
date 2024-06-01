@@ -1,0 +1,116 @@
+---
+title: "Quantitative Criminology Research Cluster"
+layout: splash
+permalink: /splash-page/
+date: 2016-03-23T11:48:41-04:00
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.6"
+  overlay_image: /assets/images/splash/London_gangs_1.png
+  actions:
+    - label: "Our People"
+      url: "/pages/members/"
+    - label: "Our Research"
+      url: "/pages/research/"
+    - label: "Our Partners"
+      url: "/pages/partners/"
+
+#  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "Evidence-Based Research for Factual, Positive Societal Change."
+# intro: 
+#  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida /
+#tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+feature_row:
+  - image_path: assets/images/splash/coop_idx.jpg
+    alt: "Organized Crime in Merseyside"
+    title: "Predicting Drugs and Violence variations in Merseyside, U.K."
+    excerpt: "We discovered that Violence and Drug Dealing in neighborhoods of Liverpool, UK can be predicted from variation of a simple 						index of organized crime cooperation"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/splash/lond1.jpg
+    #image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "London"
+    title: "Mapping and measuring inter-gang Violence in Greater London Area"
+    excerpt: "When Organized Crime groups are mapped as multiplex networks, overarching violence is more serious"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/splash/USBenCost.jpg
+    title: "Can Inoculation substitute Repression in controlling extremism?"
+    excerpt: "We develop a cost-benefit methodology to assess the peculiar merits of information inoculation as opposed to deplatforming for controlling extremism"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+#feature_row2:
+#  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+#    alt: "placeholder image 2"
+#    title: "Placeholder Image Left Aligned"
+#    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+#    url: "#test-link"
+#    btn_label: "Read More"
+#    btn_class: "btn--primary"
+#feature_row3:
+#  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+#    alt: "placeholder image 2"
+#    title: "Placeholder Image Right Aligned"
+#    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+#    url: "#test-link"
+#    btn_label: "Read More"
+#    btn_class: "btn--primary"
+#feature_row4:
+#  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+#    alt: "placeholder image 2"
+#    title: "Placeholder Image Center Aligned"
+#    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+#   url: "#test-link"
+#    btn_label: "Read More"
+#    btn_class: "btn--primary"
+
+partners:
+
+  - image_path: /assets/images/splash/cambridge_logo.png
+    alt: "University of Cambridge"
+    url: "http://www.cam.ac.uk"
+  - image_path: /assets/images/splash/deakin.png
+    alt: "Deakin University"
+    url: "https://partner3.com"
+  - image_path: /assets/images/splash/merseyside_logo.png
+    alt: "Merseyside Police"
+    url: "https://partner3.com"
+  - image_path: /assets/images/splash/met_logo.png
+    alt: "MET Police"
+    url: "https://partner3.com"
+  - image_path: /assets/images/splash/taklinghate.png
+    alt: "MET Police"
+    url: "https://partner3.com"
+  - image_path: /assets/images/splash/siena.png
+    alt: "MET Police"
+    url: "https://partner3.com"
+  - image_path: /assets/images/splash/hilst.png
+    alt: "MET Police"
+    url: "https://partner3.com"
+  - image_path: /assets/images/splash/modena.png
+    alt: "MET Police"
+    url: "https://partner3.com"
+  - image_path: /assets/images/splash/eu.png
+    alt: "EU"
+    url: "https://partner3.com"
+
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+<section class="partners">
+  <h2>Our Collaborations and Partners</h2>
+  <div class="partners-container">
+    {% for partner in page.partners %}
+      <a href="{{ partner.url }}">
+        <img src="{{ partner.image_path | relative_url }}" alt="{{ partner.alt }}">
+      </a>
+    {% endfor %}
+  </div>
+</section>
+

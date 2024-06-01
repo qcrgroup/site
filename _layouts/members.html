@@ -1,0 +1,41 @@
+
+ 
+
+
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+    {% include head/custom.html %}
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our People</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>Our People</h1>
+  </header>
+  <main class="members-profile">
+    {{ content }}
+  </main>
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+    {% include scripts.html %}
+</body>
+</html>
