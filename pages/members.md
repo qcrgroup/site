@@ -56,7 +56,7 @@ partners_andrea:
       <h2>Andrea Giovannetti, Ph.D</h2>
     </div>
     <div class="profile-content">
-      <img src="/assets/images/andrea_logo.jpg" alt="Andrea Logo" class="profile-image">
+      <img src="{{ site.baseurl }}/assets/images/andrea_logo.jpg" alt="Andrea Logo" class="profile-image">
       <div class="profile-text">
         <blockquote>
           Reality is a set of interconnected entities, and the properties of such interconnections matter for the control of crucial phenomena such as the diffusion of behaviours. In my work, I develop analytical models and apply high-	  power computational and statistical techniques to investigate and predict the diffusion of behaviours on human and economic networks.
