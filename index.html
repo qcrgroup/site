@@ -44,13 +44,10 @@ feature_row:
     btn_class: "btn--primary"
 
 calendar:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "Calendar"
-    title: "Our Events and Participations"
+  - title: "Our Events and Participations"
     excerpt: 'Stay tuned with our Events!'
     content: |
       <iframe src="YOUR_GOOGLE_CALENDAR_IFRAME_LINK" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    btn_class: "btn--primary"
 
 #feature_row3:
 #  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
@@ -107,7 +104,7 @@ partners:
 
 {% include feature_row %}
 
-{% include calendar type "left" %}
+{% include feature_row id="calendar" type "left" %}
 
 <section class="partners">
   <h2>Our Collaborations and Partners</h2>
