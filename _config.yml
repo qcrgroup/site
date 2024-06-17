@@ -37,8 +37,11 @@ main:
     url: "/find_us/"
 
 
-# Build settings
+# Build settings. Uncomment (A) "theme" for local processing OR (B) for online processing
+# (A) local processing
 # theme: minimal-mistakes-jekyll
+
+# (B) online processing 
 remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 plugins:
   - jekyll-feed
