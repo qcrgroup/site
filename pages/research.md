@@ -1,6 +1,6 @@
 ---
 title: "Quantitative Criminology Research Cluster"
-layout: home
+layout: splash
 permalink: /pages/research/
 header:
   overlay_color: "#000"
@@ -15,17 +15,19 @@ header:
       url: "/pages/partners/"
 ---
 
-<h1>Research</h1>
+<h1>Our Projects</h1>
 <div class="posts-grid">
   {% for post in site.posts %}
-    <div class="post-item">
-      <a href="{{ post.url | relative_url }}">
-        {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image">
-        {% endif %}
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.excerpt }}</p>
-      </a>
-    </div>
+    {% if post.categories contains "research" %}
+      <div class="post-item">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image">
+          {% endif %}
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.excerpt }}</p>
+        </a>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>

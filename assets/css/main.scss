@@ -268,7 +268,7 @@ b {
   border: 2px solid black; /* Add black border */
 }
 
-
+/* Custom styles for the research page */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
 
@@ -294,31 +294,125 @@ body {
   transition: transform 0.2s;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start; /* Align items to the left */
+  text-align: left; /* Align text to the left */
 }
 
-.post-item:hover {
-  transform: scale(1.02);
+.post-item:hover h2 {
+  color: #007BFF; /* Highlight title on hover */
 }
 
 .post-image {
-  width: 100px;
-  height: 100px;
+  width: 250px; /* Set image width to 250px */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Add margin below the image */
 }
 
 .post-item h2 {
   font-size: 1.2em;
-  margin-bottom: 10px;
+  margin: 10px 0; /* Adjust the margin to reduce gap */
   font-weight: 500; /* Medium 500 weight */
+  transition: color 0.2s; /* Smooth transition for color change */
 }
 
 .post-item p {
   font-size: 0.9em;
   color: #555;
   text-align: justify;
+  margin-top: 10px; /* Adjust the margin to reduce gap */
+}
+
+.post-item a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Maintain the same color */
+}
+
+
+/* Custom styles for EACH RESEARCH POST  page */
+
+
+/* Custom styles for the post page */
+.post-title {
+  font-size: 2em;
+  font-weight: 500; /* Medium 500 weight */
+  margin-bottom: 20px;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-body {
+  flex: 1;
+}
+
+.team-members,
+.abstract {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.team-members h2,
+.abstract h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.team-members ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team-members li {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.abstract-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.abstract-figure {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.abstract-figure img {
+  width: 100%;
+  height: auto;
+  float: left;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.abstract-figure figcaption {
+  font-size: 0.8em;
+  color: #555;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.abstract p {
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline only on hover */
 }
 

@@ -7,7 +7,7 @@ header:
   overlay_filter: "0.6"
   overlay_image: /assets/images/splash/London_gangs_1.png
   actions:
-    - label: "Our People"
+    - label: "Members"
       url: "/pages/members/"
     - label: "Our Research"
       url: "/pages/research/"

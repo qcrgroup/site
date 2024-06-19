@@ -5,7 +5,7 @@ main:
    - title: "Members"
      url: /pages/members/
    - title: "Our Projects"
-     url: /research/
+     url: /pages/research/
    - title: "Find Us"
      url: /find_us/
 
