@@ -74,9 +74,9 @@ partners_andrea:
 
 <div id="full-bio" class="profile-full-bio">
   <h3>BIO</h3>
-  <p>Andrea is Principal Investigator at the <a href="https://hilstlab.org/">HILSTLab</a>, and Assistant Professor in Economics at the Faculty of Law and Business of the Australian Catholic University.</p>
+  <p>Andrea is Principal Investigator at the <a href="https://hilstlab.org/">HILSTLab</a>, and Assistant Professor in Economics at the <a href="https://www.acu.edu.au/about-acu/faculties-directorates-and-staff/faculty-of-law-and-business">Faculty of Law and Business</a> of the Australian Catholic University.</p>
   <p>Before joining ACU, Andrea was a <strong>Marie Skłodowska-Curie fellow</strong> at the <a href="https://www.crim.cam.ac.uk">Institute of Criminology</a> of the University of Cambridge, UK. The Marie Skłodowska-Curie fellowship is the most prestigious individual grant offered by the European Union and one of the most competitive grants in the world.</p>
-  <p>He obtained his PhD in Economics in 2018 from the University of Southampton, UK. From 2018 to 2021 he worked as a research fellow at the <a href="https://www.uts.edu.au/about/uts-business-school/economics-department">Economics Department</a> of University of Technology Sydney.</p>
+  <p>He obtained his PhD in Economics in 2018 from the <a href="https://www.southampton.ac.uk/">University of Southampton</a>, UK. From 2018 to 2021 he worked as a research fellow at the <a href="https://www.uts.edu.au/about/uts-business-school/economics-department">Economics Department</a> of University of Technology Sydney.</p>
   <p>Andrea currently holds a position as associate researcher at <a href="https://www.darwin.cam.ac.uk/">Darwin College</a>, Cambridge and he is an active member of the <a href="https://www.vrc.crim.cam.ac.uk/">Violence Research Centre</a> of the Institute of Criminology of Cambridge. The institute frequently ranks as the top Criminology institution of the world. He has active, operative collaborations with the <strong>London Metropolitan Police Force</strong> (the largest police force of Europe), as well as <strong>Merseyside Police</strong> and <strong>Cambridgeshire Police force</strong>.</p>
   <h3>MAIN GRANTS (USD Equivalent)</h3>
   <ul>

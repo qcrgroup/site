@@ -1,7 +1,7 @@
 # main links
 main:
    - title: "Home"
-     url: /splash-page/
+     url: /
    - title: "Members"
      url: /pages/members/
    - title: "Our Projects"

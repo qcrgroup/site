@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:
+title: Quantitative Research Cluster @ ACU
 email: qrcgroup@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:" The website of the Quantitative Criminology Research Group at ACU
 baseurl: "/site" # the subpath of your site, e.g. /blog
@@ -34,17 +34,43 @@ main:
   - title: "Our Projects"
     url: "/pages/research/"
   - title: "Find Us"
-    url: "/find_us/"
+    url: "/pages/find_us/"
+
+# Adding the below to _config.yml will assign the single layout and enable: author profile, reading time, comments, social sharing links, and related posts, for all posts.
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
 
 
-# Build settings. Uncomment (A) "theme" for local processing OR (B) for online processing
+
+# Build settings. MAKE SURE THERE IS NO SPACE BETWEEN LEFT CORNER AND COMMANDS OR LOCAL SERVER DOESN'T LOAD Uncomment (A) "theme" for local processing OR (B1)+(B2) for online processing
+
 # (A) local processing
-# theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 
-# (B) online processing 
+# (B1) online processing 
 remote_theme: "mmistakes/minimal-mistakes@4.26.1"
+
 plugins:
   - jekyll-feed
+
+# (B2) ADD ALSO THE BELOW FOR INTERNET RUNNING
+
   - jekyll-include-cache
 
 # Exclude from processing.
