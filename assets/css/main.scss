@@ -416,3 +416,93 @@ a:hover {
   text-decoration: underline; /* Underline only on hover */
 }
 
+
+/* BEGIN SECTION EVENTS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+
+/* Custom styles for the events page */
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 200; /* Default to ExtraLight 200 */
+}
+
+.events-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background: #f4f4f4;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.posts-events-content {
+  width: 70%;
+  padding: 20px;
+}
+
+.posts-events-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-events-date {
+  font-size: 1.2em;
+  font-weight: 500; /* Use Medium 500 weight */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.post-events-item {
+  border: none; /* Remove any border */
+  background: none; /* Remove any background color */
+  padding: 0; /* Remove padding */
+  margin-bottom: 20px; /* Add some space between posts */
+}
+
+.post-events-item img.post-image {
+  width: 100%;
+  max-width: 250px;
+  float: left;
+  margin-right: 20px;
+}
+
+.post-events-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px; /* Add space below the post title */
+  font-weight: 500; /* Use Medium 500 weight */
+}
+
+.post-events-item p {
+  margin: 0;
+  margin-top: 10px; /* Add some space above the post body */
+  font-weight: 200; /* Ensure the same font weight as the member page */
+}
+
+.post-events-item a {
+  text-decoration: none;
+  color: #333;
+}

@@ -11,6 +11,8 @@ header:
       url: "/pages/members/"
     - label: "Our Research"
       url: "/pages/research/"
+    - label: "Events & Webinars"
+      url: "/pages/events/"
     - label: "Our Partners"
       url: "/pages/partners/"
 ---
