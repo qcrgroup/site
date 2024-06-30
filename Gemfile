@@ -18,6 +18,7 @@ end
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # (A) THE BELOW HAS TO BE ADDED FOR ONLINE RUNNING - REMOVE FOR LOCAL RUNNING
-# source "https://rubygems.org"
-# gem "github-pages", group: :jekyll_plugins
-# gem "jekyll-include-cache", group: :jekyll_plugins
+
+source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
